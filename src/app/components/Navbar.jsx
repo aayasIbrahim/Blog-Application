@@ -2,6 +2,7 @@
 import React, { useState } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import Image from "next/image";
+import Link from "next/link";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
@@ -24,12 +25,12 @@ export default function Navbar() {
 
             {/* Desktop Links */}
             <div className="hidden md:flex space-x-8">
-              <a href="#home" className="hover:text-[#38BDF8] transition">
+              <Link href="/" className="hover:text-[#38BDF8] transition">
                 Home
-              </a>
-              <a href="#about" className="hover:text-[#38BDF8] transition">
+              </Link>
+              <Link href="About" className="hover:text-[#38BDF8] transition">
                 About
-              </a>
+              </Link>
               <a href="#services" className="hover:text-[#38BDF8] transition">
                 Services
               </a>

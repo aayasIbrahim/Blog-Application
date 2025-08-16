@@ -9,6 +9,7 @@ export default function Home() {
         bgColor="#0f172a"
         textColor="black"
         imageUrl="/pexels-scottwebb-403571.jpg"
+        prev={"ABOUT US"}
       />
     </>
   );
