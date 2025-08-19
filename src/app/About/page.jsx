@@ -4,6 +4,8 @@ import Header from "./Header";
 import Banner from "../components/Banner";
 import ServiceSection from "./ServiceSection";
 import ChoiceDesign from "./ChoiceDesing";
+import Facilities from "./Facilities";
+import TeamDetails from "./TeamDetails";
 
 export default function About() {
   return (
@@ -16,6 +18,8 @@ export default function About() {
       <Header />
       <ServiceSection/>
       <ChoiceDesign/>
+      <Facilities/>
+      <TeamDetails/>
     </>
   );
 }

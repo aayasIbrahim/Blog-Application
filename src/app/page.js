@@ -7,8 +7,8 @@ export default function Home() {
         title="Welcome to Our Blog"
         subtitle="Discover amazing products and services"
         bgColor="#0f172a"
-        textColor="black"
-        imageUrl="/pexels-scottwebb-403571.jpg"
+        textColor="white"
+        imageUrl="/pexels-feriilicee-7554804.jpg"
         prev={"ABOUT US"}
       />
     </>
