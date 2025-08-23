@@ -34,9 +34,9 @@ export default function Navbar() {
               <a href="#services" className="hover:text-[#38BDF8] transition">
                 Services
               </a>
-              <a href="#contact" className="hover:text-[#38BDF8] transition">
+              <Link href="Contact" className="hover:text-[#38BDF8] transition">
                 Contact
-              </a>
+              </Link>
             </div>
 
             {/* Mobile Menu Button */}
